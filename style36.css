@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec5{
+    
+    background-color: rgba(0, 0, 0, 0.888);
+    min-height:100vh;
+    min-width:100vw;
+}
+.flexwrap36{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#canva36{
+    display: block;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 630px;
+    width: 730px;
+    background-color:rgb(236, 199, 199);
+    box-sizing: border-box;
+}
+.gridbox36{
+    margin: 10px;
+    display: grid;
+    height: 610px;
+    width: 710px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    background-color: rgb(236, 199, 199);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.griditems36{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: rgb(36, 36, 44);
+    border: 2px solid rgb(121, 93, 93);
+    border-radius:10px ;
+    cursor: pointer;
+    transition: transform  0.2s;
+}
+.wrapper36{
+   
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    font-size: xx-large;
+}
+#start36,#restart36{
+    display: block;
+    width:180px;
+    height: 90px;
+    margin: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    outline: 1px solid white;
+    font-family: 'Black Ops One', cursive;
+}
+#start36:hover,#restart36:hover{
+    background-color: rgb(70, 48, 48);
+}
+.btncont36{
+    margin-top: 240px;
+    margin-left:45px ;
+}
+.tilelightup{
+    background-color: rgb(134, 242, 46);
+    
+    outline: 1px solid rgb(194, 72, 72);
+    
+}
+.correctclick{
+    background-color: lightgreen;
+    
+}
+.wrongclick{
+    background-color: red;
+    
+}
